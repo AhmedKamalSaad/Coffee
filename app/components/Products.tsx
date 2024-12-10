@@ -33,7 +33,7 @@ const Products = async ({ data, text }: Props) => {
           align: "start",
           loop: true,
         }}
-        className="w-full  mt-10 flex justify-center items-center "
+        className="px-5 max-w-screen-xl w-[70%] sm:w-[80%] md:w-[85%] lg:w-[90%] mx-auto"
       >
         <CarouselContent>
           {data.slice(0, 15).map((d) => (

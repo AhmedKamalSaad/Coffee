@@ -14,7 +14,7 @@ const Card = ({ coffee }: { coffee: coffee }) => {
       />
       <div>
         <h1 className="font-bold text-xl text-center ">{coffee.title}</h1>
-        <p className="text-slate-500/90 text-nowrap	">
+        <p className="text-slate-500/90 text-wrap px-2	">
           {coffee.ingredients.map((integredient) =>'-'+ integredient + " ")}
         </p>
       </div>
